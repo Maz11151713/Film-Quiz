@@ -43,7 +43,7 @@ Partial Class frmHighScore
         Me.lstHighScore.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lstHighScore.FormattingEnabled = True
         Me.lstHighScore.ItemHeight = 29
-        Me.lstHighScore.Items.AddRange(New Object() {"Name" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & "Score", "", "Rhonda", "Dave"})
+        Me.lstHighScore.Items.AddRange(New Object() {"Name" & Global.Microsoft.VisualBasic.ChrW(9) & Global.Microsoft.VisualBasic.ChrW(9) & "Score"})
         Me.lstHighScore.Location = New System.Drawing.Point(99, 115)
         Me.lstHighScore.Name = "lstHighScore"
         Me.lstHighScore.Size = New System.Drawing.Size(390, 207)

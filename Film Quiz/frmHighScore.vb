@@ -15,10 +15,8 @@
 
     Private Sub btnAgain_Click(sender As Object, e As EventArgs) Handles btnAgain.Click
 
-    End Sub
+        frmMain.Show()
+        Me.Hide()
 
-    Private Sub btnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
-
-        Application.Exit()
     End Sub
 End Class

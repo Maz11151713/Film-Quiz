@@ -10,7 +10,5 @@
 
     End Sub
 
-    Private Sub btnAnswer2_CheckedChanged(sender As Object, e As EventArgs) Handles btnAnswer2.CheckedChanged
 
-    End Sub
 End Class
