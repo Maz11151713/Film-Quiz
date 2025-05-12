@@ -29,16 +29,16 @@ Public Class frmQuestion2
     Private Sub tmrQuestion2_Tick(sender As Object, e As EventArgs) Handles tmrQuestion2.Tick
 
         progressCount = progressCount + 1
-
-
         ProgressBarQ2.PerformStep()
-
         If progressCount = 10 Then
-        End If
-        tmrQuestion2.Enabled = False
-        MsgBox("too slow")
+            tmrQuestion2.Enabled = False
+            MsgBox("too slow")
             frmQuestion3.Show()
             frmQuestion3.init()
+            Me.Hide()
+
+        End If
+
 
     End Sub
 End Class
